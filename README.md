@@ -24,7 +24,7 @@ Generics are not limited to function definitions; you can also create generic cl
 This class can be used as follows.
 
 
-<img src="https://user-images.githubusercontent.com/107070882/198852211-97fd8b5b-b331-4820-a767-fc0d1ecf4b4a.png" alt="NodeType">
+<img src="https://user-images.githubusercontent.com/107070882/198853125-3e9017a7-8ff6-465d-8354-00c76a58171b.png" alt="NodeType">
 
 
 While this use of generic programming is quite useful, C# already provides a library of ready-to-use generic data structures. These data structures are located in the System.Collection.Generics namespace, and we will examine the use of a data structure that is part of this namespace in my other repositories. In general, these classes have the same functionality as non-generic data structure classes, so we will generally limit considerations of the generic class to how to instantiate an object of that class, as other methods and their usage are not different.
@@ -59,7 +59,7 @@ Jenerikler, fonksiyon tanımlarıyla sınırlı değildir; jenerik sınıflar da
 Bu sınıf aşağıfaki gibi kullanılabilir.
 
 
-<img src="https://user-images.githubusercontent.com/107070882/198852211-97fd8b5b-b331-4820-a767-fc0d1ecf4b4a.png" alt="NodeType">
+<img src="https://user-images.githubusercontent.com/107070882/198853125-3e9017a7-8ff6-465d-8354-00c76a58171b.png" alt="NodeType">
 
 
 Jenerik programlamanın bu kullanımı oldukça yararlı olsa da, C# zaten kullanıma hazır jenerik veri yapılarından oluşan bir kitaplık sağlar. Bu veri yapıları System.Collection.Generics ad alanında bulunur ve bu ad alanının parçası olan bir veri yapısını diğer repositories'lerimde kullanımını inceleyeceğiz. Genel olarak, bu sınıflar, jenerik olmayan veri yapısı sınıflarıyla aynı işlevselliğe sahiptir, bu nedenle, diğer yöntemler ve kullanımları farklı olmadığından, jenerik sınıfla ilgili değerlendirmeleri genellikle o sınıfın bir nesnesinin nasıl başlatılacağıyla sınırlayacağız.
