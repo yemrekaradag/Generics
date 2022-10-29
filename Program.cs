@@ -8,8 +8,8 @@ namespace Generics
         {
             Node<string> node1 = new Node<string>("Mike", null);
             Node<string> node2 = new Node<string>("Raymond", node1);
-            Console.WriteLine($"Node1 Data: {node1.GetData()}\nNode1 Link: {node1.GetLink()}");
-            Console.WriteLine($"Node2 Data: {node2.GetData()}\nNode2 Link: node1 data: {node2.GetLink().Data} or node1 link: {node2.GetLink().Link}");
+            Console.WriteLine($"Node1 Data: {node1.Data}\nNode1 Link: {node1.Link}");
+            Console.WriteLine($"Node2 Data: {node2.Data}\nNode2 Link: node1's data: {node2.Link.Data} | node1's link: {node2.Link.Link}");
 
             int num1 = 100;
             int num2 = 200;
@@ -53,13 +53,13 @@ namespace Generics
             set { link = value; }
             //set { link = Link; }
         }
-        public T GetData()
-        {
-            return data;
-        }
-        public Node<T> GetLink()
-        {
-            return link;
-        }
+        //public T GetData()
+        //{
+        //    return data;
+        //}
+        //public Node<T> GetLink()
+        //{
+        //    return link;
+        //}
     }
 }
