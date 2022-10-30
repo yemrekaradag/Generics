@@ -11,17 +11,13 @@ A standard first example for generic programming is the substitution method. The
 The placeholder for the data type is placed immediately after the method name. The identifier enclosed in square brackets is now used when a generic data type is required. Each of the parameters is assigned a generic data type, such as the temporary variable used for swapping. A program that tests this code:
 <hr>
 Generics are not limited to function definitions; you can also create generic classes. A generic class definition will contain a generic type placeholder after the class name. The type placeholder must be provided each time a reference is made to the class name in the definition. The following class definition shows how to create a generic class:
-
-
+<hr>
 <img src="https://user-images.githubusercontent.com/107070882/198852120-8311687e-3b38-48f5-bf02-26d180f12e1f.png" alt="Node">
-
-
+<hr>
 This class can be used as follows.
-
-
+<hr>
 <img src="https://user-images.githubusercontent.com/107070882/198853125-3e9017a7-8ff6-465d-8354-00c76a58171b.png" alt="NodeType">
-
-
+<hr>
 While this use of generic programming is quite useful, C# already provides a library of ready-to-use generic data structures. These data structures are located in the System.Collection.Generics namespace, and we will examine the use of a data structure that is part of this namespace in my other repositories. In general, these classes have the same functionality as non-generic data structure classes, so we will generally limit considerations of the generic class to how to instantiate an object of that class, as other methods and their usage are not different.
 <hr>
 <h1>Jenerikler (Generics)</h1>
