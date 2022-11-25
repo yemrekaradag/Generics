@@ -6,7 +6,6 @@ namespace Generics
     {
         static void Main(string[] args)
         {
-
             Node<string> node1 = new Node<string>("Yunus", null);
             Node<string> node2 = new Node<string>("Emre", node1);
             Console.WriteLine($"Node1 Data: {node1.Data}\nNode1 Link: {node1.Link}");
